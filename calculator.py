@@ -3,8 +3,8 @@ def calculator(a,b):
     sub=a-b
     mul=a*b
     div=a/b
-    print(a+b)
-    print(a-b)
-    print(a*b)
-    print(a/b)
-calculator(7,4)
+    print(f"sum of {a} and {b} is",a+b)
+    print(f"sub of {a} and {b} is",a-b)
+    print(f"mul of {a} and {b} is",a*b)
+    print(f"div of {a} and {b} is",a/b)
+calculator(7,4)   
