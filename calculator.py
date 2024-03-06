@@ -3,8 +3,8 @@ def calculator(a,b):
     sub=a-b
     mul=a*b
     div=a/b
-    print(add)
-    print(sub)
-    print(mul)
-    print(div)
+    print(a+b)
+    print(a-b)
+    print(a*b)
+    print(a/b)
 calculator(7,4)
